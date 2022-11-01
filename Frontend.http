@@ -1,0 +1,11 @@
+###
+POST http://localhost:8080/employee/add
+Content-Type: application/json
+
+{
+  "name" : "John Green",
+  "email" : "johngreen@gmail.com",
+  "jobTitle" : "Software Engineer",
+  "phone":"3201234433",
+  "imageUrl": "https://bootdey.com/img/Content/avatar1.png"
+}
